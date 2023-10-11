@@ -1,0 +1,33 @@
+:root {
+	--primary-color: #ff9854;
+	--line-color: #faf8f9;
+	--theme-linear-gradient: linear-gradient(90deg, #fa8c1d, #fcaf3f);
+
+	/* 全局修改: 任何地方只要用到-van-tabbar-item-icon-size都会被修改掉 */
+	/* --van-tabbar-item-icon-size: 30px !important; */
+	--van-primary-color: var(--primary-color) !important;
+	--van-search-left-icon-color: var(--primary-color) !important;
+}
+
+body {
+	font-size: 14px;
+}
+
+.top_page {
+	position: relative;
+	z-index: 9;
+	height: 100vh;
+	background-color: #fff;
+	overflow-y: auto;
+}
+
+.bottom_gray_line {
+	border-bottom: 1px solid var(--line-color);
+}
+
+.icon_check {
+	display: inline-block;
+	width: 12px;
+	height: 12px;
+	background: url(../img/detail/icon_check.png) 0 0 / 100% 100%;
+}
