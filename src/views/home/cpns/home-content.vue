@@ -4,11 +4,7 @@
 		<div class="list">
 			<template v-for="(item, index) in houselist" :key="item.data.houseId">
 				<house-item-v9 @click="itemClick(item)" v-if="item.discoveryContentType === 9" :item-data="item.data" />
-				<house-item-v3
-					@click="itemClick(item)"
-					v-else-if="item.discoveryContentType === 3"
-					:item-data="item.data"
-				/>
+				<house-item-v3 @click="itemClick(item)" v-else-if="item.discoveryContentType === 3" :item-data="item.data" />
 			</template>
 		</div>
 	</div>

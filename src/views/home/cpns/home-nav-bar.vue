@@ -1,7 +1,7 @@
 <template>
 	<div class="home-nav-bar">
 		<div class="left"></div>
-		<div class="title">美团旅途</div>
+		<div class="title">北海民宿</div>
 		<div class="right"></div>
 	</div>
 </template>

@@ -47,6 +47,7 @@
 				}
 			}
 			.info {
+				background-image: linear-gradient(-180deg, rgba(0, 0, 0, 0) 3%, rgba(41, 40, 40, 0.9) 100%);
 				position: absolute;
 				bottom: 0;
 				padding: 8px 10px;
@@ -66,6 +67,10 @@
 					display: flex;
 					justify-content: space-between;
 					margin-top: 10px;
+					.new {
+						color: #ff9645;
+						font-size: 14px;
+					}
 				}
 			}
 		}
