@@ -52,7 +52,16 @@ const router = createRouter({
 			meta: {
 				hideTabBar: true
 			}
-		}
+		},
+    // 我的
+    {
+      path: '/user',
+      component: () => import('@/views/user/user.vue'),
+      name: 'User',
+      meta: {
+        hideTabBar: true
+      }
+    }
 	]
 })
 

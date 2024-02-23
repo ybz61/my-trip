@@ -1,7 +1,7 @@
 <template>
 	<div class="detail" ref="detailRef">
 		<tab-control v-if="showTabControl" class="tabs" :titles="names" @tabItemClick="tabClick" ref="tabControlRef" />
-		<van-nav-bar title="房屋详情" left-arrow left-text="旅途" @click-left="onClickLeft" />
+		<van-nav-bar title="房屋详情" left-arrow left-text="民宿" @click-left="onClickLeft" />
 		<div class="detail_cont" v-if="mainPart" v-memo="[mainPart]">
 			<detail-swiper :swiper-data="mainPart.topModule.housePicture.housePics" />
 			<detail-info name="描述" :ref="getSectionRef" :top-info="mainPart.topModule" />
@@ -22,7 +22,7 @@
 		</div>
 		<div class="footer">
 			<img src="@/assets/img/detail/icon_ensure.png" alt="" />
-			<div class="text">弘源旅途, 永无止境!</div>
+			<div class="text">北海民宿, 永无止境!</div>
 		</div>
 	</div>
 </template>

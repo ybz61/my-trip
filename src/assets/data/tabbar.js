@@ -22,7 +22,13 @@ const tabbarList = [
 		image: 'tabbar/tab_message.png',
 		imageActive: 'tabbar/tab_message.png',
 		path: '/message'
-	}
+	},
+  {
+    text: '我的',
+    image: 'tabbar/tab_user.png',
+    imageActive: 'tabbar/tab_user_active.png',
+    path: '/user'
+  }
 ]
 
 export default tabbarList
