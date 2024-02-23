@@ -18,4 +18,9 @@
 	const { favorList } = storeToRefs(favorStore)
 </script>
 
-<style lang="less" scoped></style>
+<style lang="less" scoped>
+	.favor {
+		box-sizing: border-box;
+		padding-bottom: 60px;
+	}
+</style>
